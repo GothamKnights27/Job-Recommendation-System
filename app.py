@@ -36,8 +36,8 @@ if st.button("Recommend me Jobs"):
 st.divider()
 
 st.caption("Developed and packaged by:")
-st.caption("1. Saumya Karia")
-st.caption("2. Kedar Dhamankar")
+st.caption("1. Kedar Dhamankar")
+st.caption("2. Saumya Karia")
 st.caption("3. Rucha Patil")
 st.caption("4. Dhruv Chugh")
 st.caption("5. Aryan Pawaskar")

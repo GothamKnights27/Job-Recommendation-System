@@ -1,0 +1,7 @@
+streamlit
+pandas
+re
+nltk
+PyPDF2
+spacy
+csv

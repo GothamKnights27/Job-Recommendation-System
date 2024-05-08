@@ -10,9 +10,6 @@ st.title("Job Recommendation System")
 
 uploaded_file = st.file_uploader("Upload your Resume", type='pdf')
 
-if uploaded_file is not None:
-    print(uploaded_file)
-
 text = "We believe these 5 jobs are a good fit for you!"
 
 def stream_data():
@@ -26,7 +23,7 @@ def stream_data():
 
     for word in text.split(" "):
         yield word + " "
-        time.sleep(0.02)
+        time.sleep(0.05)
 
     yield pd.DataFrame(result)
 
@@ -35,9 +32,4 @@ if st.button("Recommend me Jobs"):
 
 st.divider()
 
-st.caption("Developed and packaged by:")
-st.caption("1. Kedar Dhamankar")
-st.caption("2. Saumya Karia")
-st.caption("3. Rucha Patil")
-st.caption("4. Dhruv Chugh")
-st.caption("5. Aryan Pawaskar")
+st.caption("Developed and packaged by: Saumya Karia and Kedar Dhamankar")
